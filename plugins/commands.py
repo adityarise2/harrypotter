@@ -307,7 +307,7 @@ async def start(client:Client, message):
                 InlineKeyboardButton(text="✅ ᴠᴇʀɪғʏ ✅", url=verify),
                 InlineKeyboardButton(text="ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ❓", url=settings['tutorial'])
                 ],[
-                InlineKeyboardButton(text="😁 ʙᴜʏ sᴜʙsᴄʀɪᴘᴛɪᴏɴ - ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪғʏ 😁", callback_data='seeplans'),
+                InlineKeyboardButton(text="😁 U WILL GET MOVIES AFTER THIS STEO DONT WORRY 😁", url=f"https://t.me/how_to_open_linkzz/13"),
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             if await db.user_verified(user_id): 
