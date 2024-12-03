@@ -18,7 +18,7 @@ API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7419852496').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7419852496 6309625016').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/aj_adminn_bot") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', '')
@@ -68,7 +68,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://ssl.gstatic.com/images/icons/material/system/1x/done_white_16dp.png https://ssl.gstatic.com/images/icons/material/system/1x/done_white_16dp.png')).split()
+START_IMG = (environ.get('START_IMG', 'https://graph.org/Aditya-12-03-12')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://ssl.gstatic.com/images/icons/material/system/1x/done_white_16dp.png')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/_kA.jpg')).split()
