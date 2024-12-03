@@ -114,7 +114,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/Ajcinemassofcl">Aj Cinemas</a>」</b>"""
+    FILE_CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/Ajcinemassofcl">Aj Cinemas</a>」 USE VLC PLAYER FROM 'PLAY STORE' TO WATCH WITHOUT ANY AUDIO PROBLEMS</b>"""
 
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
