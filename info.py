@@ -32,7 +32,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', ''))  
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL',''))
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL','0'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS',''))
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', ''))
 auth_channel = environ.get('AUTH_CHANNEL', '')
